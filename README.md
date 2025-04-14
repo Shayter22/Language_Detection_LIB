@@ -42,7 +42,7 @@ The datasets to train, validate and test the software were collected with [this 
 Just by cloning the test can be run by:
 
 ```python
-python test_langdetect.py
+python test_language_detect.py
 ```
 
 This will print out the resulting detection precision for the train, validation and test datasets, for every language. It could be useful to see the results in case of changing the train dataset or at adjusting parameters of the algorithm.
