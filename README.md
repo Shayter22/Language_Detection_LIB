@@ -6,6 +6,7 @@ Language detection library in Python. Implementation based on n-gram text catego
 Given a text, it returns a list of tuples of length `MAX_RESULTS`, sorted according to the probabilites of that text belonging to each language. The tuples are `(language_code, probability)`. The language codes follow the [ISO 639-1 Standard](https://www.w3schools.com/TAgs/ref_language_codes.asp)
 
 - Library usage:
+- Extract the datesets folder before executing given commands.
 
 ```python
 >>> text = """Automatic summarization is the process of reducing a text document with a
